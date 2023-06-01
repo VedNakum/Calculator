@@ -36,16 +36,16 @@ CALCULATOR
 <body>
 <article class="all-browsers">
   <article class="browser">
-  <button> 1 <button>
-    <button> 2 <button>
+  <button onclick="one" id="1" > 1 <button>
+    <button onclick="two" id="2" > 2 <button>
   </article>
   <article class="browser">
-  <button> 3 <button>
-    <button> 4 <button>
+  <button onclick="three" id="3" > 3 <button>
+    <button onclick="four" id="4" > 4 <button>
   </article>
   <article class="browser">
-  <button> 5 <button>
-    <button> 6 <button>
+  <button  onclick="five" id="5" > 5 <button>
+    <button onclick="six" id="6" > 6 <button>
   </article>
 </article>
 
@@ -53,5 +53,38 @@ CALCULATOR
 </html>
 </Body> 
 </Html>
-
+   
+    <script>
+      var one = document.getElementById("1");
+      var two = document.getElementById("2");
+      var three = document.getElementById("3");
+      var four = document.getElementById("4");
+      var five = document.getElementById("5");
+      var six = document.getElementById("6");
+      var text = document.getElementById("Ligma")
+      
+      function one() {
+       text = "one";
+      }
+           function two() {
+        text = "two";
+      }
+           function three() {
+        text = "three";
+      }
+           function four() {
+        text = "four";
+      }
+           function five() {
+        text = "five";
+      }
+           function six() {
+        text = "six";
+      }
+  
+      
+      
+      
+      
+      
  
